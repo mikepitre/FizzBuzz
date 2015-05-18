@@ -1,18 +1,5 @@
 class Fizzbuzz
 
-  def run_easy
-    (1..100).each do |number|
-      if number % 3 == 0 && number % 5 == 0
-        puts "fizzbuzz"
-      elsif number % 3 == 0
-        puts "fizz"
-      elsif number % 5 == 0
-        puts "buzz"
-      else
-        puts number
-      end
-    end
-  end
 
   def run_normal(highest_number)
     (1..highest_number).each do |number|
@@ -27,5 +14,7 @@ class Fizzbuzz
       end
     end
   end
+
+
 end
 
